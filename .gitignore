@@ -1,0 +1,25 @@
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+.next/
+out/
+
+# Build and test
+dist/
+build/
+.pytest_cache/
+.coverage
+
+# OS
+.DS_Store
